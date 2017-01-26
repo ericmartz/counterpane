@@ -1,0 +1,66 @@
+body {
+  font-family: 'Muli', sans-serif;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.highlight-text {
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  bottom: -10px;
+  /*text-align: center;*/
+  width: 90%;
+  height: 25%;
+  padding: 2%;
+}
+
+.student-highlight {
+  background-color: #fff;
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+  height: 100%;
+  padding: 2%;
+  opacity: 0;
+}
+
+.student-highlight:hover {
+  opacity: 1;
+}
+
+.student-text {
+  position: absolute;
+  top: 45%;
+  left: -2%;
+  width: 100%;
+  text-align: center;
+}
+
+.no-top-margin {
+  margin-top: 0;
+}
+
+.small-bottom-margin {
+  margin-bottom: 2%;
+}
+
+.small-top-margin {
+  margin-top: 2%;
+}
