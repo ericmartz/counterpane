@@ -6,6 +6,20 @@ body {
     text-align:center;
 }
 
+.title-link {
+  color: #000;
+}
+
+.title-link:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.title-link:visited {
+  text-decoration: none;
+  color: #000;
+}
+
 .bold-text {
   font-weight: bold;
 }
