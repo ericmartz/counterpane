@@ -1,9 +1,18 @@
 body {
   font-family: 'Muli', sans-serif;
+  font-size: 14px;
 }
 
 .row-centered {
     text-align:center;
+}
+
+.page-head {
+  color: #d3d3d3;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 2em;
 }
 
 .title-link {
