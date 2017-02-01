@@ -91,3 +91,30 @@ body {
 .small-top-margin {
   margin-top: 2%;
 }
+
+/*
+  Navigation Styling
+ */
+.nav-link {
+  /*margin-right: 2em;*/
+  color: #000;
+  padding: .5em 1em .5em 1em;
+}
+
+.nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #d3d3d3;
+}
+
+.nav-link:visited {
+  color: #000;
+}
+
+
+
+
+
+
+
+
