@@ -99,22 +99,27 @@ body {
   /*margin-right: 2em;*/
   color: #000;
   padding: .5em 1em .5em 1em;
+  display: inline-block;
+  position: relative;
 }
 
 .nav-link:hover {
-  color: #fff;
+  /*color: #fff;*/
   text-decoration: none;
-  background-color: #d3d3d3;
+  /*background-color: #d3d3d3;*/
 }
 
 .nav-link:visited {
   color: #000;
 }
 
-
-
-
-
-
-
-
+.nav-link:hover:before {
+    content: "";
+    position: absolute;
+    top: -.25em;
+    background: #000;
+    width: .5rem;
+    height: .5rem;
+    /*border-radius: 100%;*/
+    left:calc(50% - .25em);
+}
